@@ -1,44 +1,58 @@
-<div class="container">
-  <form action="/action_page.php">
-    <div class="row">
-      <h2 style="text-align:center">Login with Social Media or Manually</h2>
-      <div class="vl">
-        <span class="vl-innertext">or</span>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web | Portofolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Portofolio</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-
-      <div class="col">
-        <a href="#" class="fb btn">
-          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
-        </a>
-        <a href="#" class="twitter btn">
-          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
-        </a>
-        <a href="#" class="google btn">
-          <i class="fa fa-google fa-fw"></i> Login with Google+
-        </a>
+      <main class="content">
+        <section class="hero">
+          <img src="online.png" alt="" />
+          <div class="hero-content">
+            <h1>Profesi</h1>
+            <br />
+            <h2>Junior Content Writer at Dicoding</h2>
+            <br /><br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aperiam dolore
+              assumenda velit repellendus recusandae magni consectetur mollitia facere incidunt
+              inventore perspiciatis debitis doloribus ullam minima culpa voluptatem. Repellendus,
+              option.
+            </p>
+            <a href="" class="action-btn">Profile Saya</a>
+          </div>
+        </section>
+      </main>
+      <div class="footer">
+        <footer>
+          <ul>
+            <li>
+              <img src="instagram.png" alt="" /><a><p>Instagram</p></a>
+            </li>
+            <li>
+              <img src="facebook.png" alt="" /><a><p>Facebook</p></a>
+            </li>
+            <li>
+              <img src="twitter.png" alt="" /><a><p>Twitter</p></a>
+            </li>
+            <li>
+              <img src="telegram.png" alt="" /><a><p>Telegram</p></a>
+            </li>
+          </ul>
+        </footer>
       </div>
-
-      <div class="col">
-        <div class="hide-md-lg">
-          <p>Or sign in manually:</p>
-        </div>
-
-        <input type="text" name="username" placeholder="Username" required>
-        <input type="password" name="password" placeholder="Password" required>
-        <input type="submit" value="Login">
-      </div>
-
     </div>
-  </form>
-</div>
-
-<div class="bottom-container">
-  <div class="row">
-    <div class="col">
-      <a href="#" style="color:white" class="btn">Sign up</a>
-    </div>
-    <div class="col">
-      <a href="#" style="color:white" class="btn">Forgot password?</a>
-    </div>
-  </div>
-</div>
+  </body>
+</html>
