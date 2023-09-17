@@ -1,37 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <%- include('../partials/head'); %>
-</head>
-<body class="container">
-
-<header>
-  <%- include('../partials/header'); %>
-</header>
-
-<main>
-  <div class="jumbotron">
-    <h1>This is great</h1>
-    <p>Welcome to templating using EJS</p>
-
-    <h2>Variable</h2>
-    <p><%= tagline %></p>
-
-    <ul>
-      <% mascots.forEach(function(mascot) { %>
-        <li>
-          <strong><%= mascot.name %></strong>
-          representing <%= mascot.organization %>,
-          born <%= mascot.birth_year %>
-        </li>
-      <% }); %>
-    </ul>
-  </div>
-</main>
-
-<footer>
-  <%- include('../partials/footer'); %>
-</footer>
-
-</body>
-</html>
+<form>
+  <label for="firstname">First name: </label>
+  <input type="text" name="firstname"  required>
+  <br>
+  <label for="lastname">Last name: </label>
+  <input type="text" name="lastname"  required>
+  <br>
+  <label for="email">email: </label>
+  <input type="email" name="email"  required>
+  <br>
+  <label for="password">password: </label>
+  <input type="password" name="password"  required>
+  <br>
+  <input type="submit" value="Login!">
+</form>
